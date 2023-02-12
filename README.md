@@ -1,5 +1,5 @@
 >This Branch belongs to Roshan(terabro)
-(https://github.com/Terabro)
+[Github profile](https://github.com/Terabro)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
