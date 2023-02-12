@@ -1,8 +1,8 @@
 import React from 'react'
-import "./login.css"
+import "./signup.css"
 const logo = require('../static/logo.png')
-const bluebg = require('../static/login.png')
-const login = () => {
+const bluebg = require('../static/signup.png')
+const Si = () => {
     return (
         <div className='m-login'>
             <div className="secondary">
@@ -13,10 +13,14 @@ const login = () => {
                 <img src={logo} alt="" />
                 </div>
                 <div className="text">
-                    <p>"welcome back, lets find your next home away from home!"</p>
+                    <p>"Find your next home away with just a few clicks, start your journey now!"</p>
                 </div>
                 <div className="form">
                     <form action="/" method="">
+                    <fieldset>
+                            <legend className='legend'>Name</legend>
+                            <input type="Text" name="#" id="password" placeholder='James Morgan' />
+                        </fieldset>
                         <fieldset>
                             <legend className='legend'>Email</legend>
                             <input type="email" name="#" placeholder='contact@gotarent.in' />
@@ -25,8 +29,12 @@ const login = () => {
                             <legend className='legend'>Password</legend>
                             <input type="password" name="#" id="password" placeholder='******' />
                         </fieldset>
+                        <fieldset>
+                            <legend className='legend'>Confirm Password</legend>
+                            <input type="password" name="#" id="password" placeholder='******' />
+                        </fieldset>
                         <div className="btn">
-                            <button type='submit'>Login</button>
+                            <button type='submit'>Signup</button>
                         </div>
                     </form>
                 </div>
@@ -39,4 +47,4 @@ const login = () => {
     )
 }
 
-export default login
+export default Si
